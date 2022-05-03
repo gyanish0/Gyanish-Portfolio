@@ -1,13 +1,8 @@
 export const SocialData = [
   {
-    platform: "Instagram",
-    icon: require("../assets/icons/instagram.png").default,
-    link: "https://www.instagram.com/gyanishd",
-  },
-  {
-    platform: "Github",
-    icon: require("../assets/icons/github.png").default,
-    link: "https://www.github.com/gyanish0",
+    platform: "Email",
+    icon: require("../assets/icons/gmail.png").default,
+    link: "mailto:srivastavagyanish@gmail.com",
   },
   {
     platform: "Linkedin",
@@ -15,13 +10,28 @@ export const SocialData = [
     link: "https://www.linkedin.com/in/gyanish-shrivastava-153582137",
   },
   {
-    platform: "Facebook",
-    icon: require("../assets/icons/facebook.png").default,
-    link: "https://www.facebook.com/gyanishanurag",
+    platform: "WhatsApp",
+    icon: require("../assets/icons/whatsapp.png").default,
+    link: "https://wa.me/7784855635",
+  },
+  {
+    platform: "Github",
+    icon: require("../assets/icons/github.png").default,
+    link: "https://www.github.com/gyanish0",
   },
   {
     platform: "Twitter",
     icon: require("../assets/icons/twitter.png").default,
     link: "https://www.twitter.com/srivastavgyani1",
+  },
+  {
+    platform: "Instagram",
+    icon: require("../assets/icons/instagram.png").default,
+    link: "https://www.instagram.com/gyanishd",
+  },
+  {
+    platform: "Facebook",
+    icon: require("../assets/icons/facebook.png").default,
+    link: "https://www.facebook.com/gyanishanurag",
   },
 ];
