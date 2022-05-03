@@ -5,10 +5,11 @@ export const SocialData = [
     link: "mailto:srivastavagyanish@gmail.com",
   },
   {
-    platform: "Linkedin",
-    icon: require("../assets/icons/linkedin.png").default,
-    link: "https://www.linkedin.com/in/gyanish-shrivastava-153582137",
+    platform: "Mobile No.",
+    icon: require("../assets/icons/phone-call.png").default,
+    link: "tel:7784855635",
   },
+
   {
     platform: "WhatsApp",
     icon: require("../assets/icons/whatsapp.png").default,
@@ -30,8 +31,8 @@ export const SocialData = [
     link: "https://www.instagram.com/gyanishd",
   },
   {
-    platform: "Facebook",
-    icon: require("../assets/icons/facebook.png").default,
-    link: "https://www.facebook.com/gyanishanurag",
+    platform: "Linkedin",
+    icon: require("../assets/icons/linkedin.png").default,
+    link: "https://www.linkedin.com/in/gyanish-shrivastava-153582137",
   },
 ];
