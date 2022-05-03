@@ -2,12 +2,12 @@ export const SocialData = [
   {
     platform: "Instagram",
     icon: require("../assets/icons/instagram.png").default,
-    link: "www.instagram.com/gyanishd",
+    link: "https://www.instagram.com/gyanishd",
   },
   {
     platform: "Github",
     icon: require("../assets/icons/github.png").default,
-    link: "www.github.com/gyanish0",
+    link: "https://www.github.com/gyanish0",
   },
   {
     platform: "Linkedin",
@@ -17,11 +17,11 @@ export const SocialData = [
   {
     platform: "Facebook",
     icon: require("../assets/icons/facebook.png").default,
-    link: "www.facebook.com/gyanishanurag",
+    link: "https://www.facebook.com/gyanishanurag",
   },
   {
     platform: "Twitter",
     icon: require("../assets/icons/twitter.png").default,
-    link: "www.twitter.com/srivastavgyani1",
+    link: "https://www.twitter.com/srivastavgyani1",
   },
 ];
