@@ -16,7 +16,17 @@ function Header() {
   return (
     <div className="header">
       <div onClick={handleLogoClick} className="logo">
-        Gyanish Shrivastava
+        <img
+          src="./logo.png"
+          alt=""
+          style={{
+            height: "auto",
+            cursor: "pointer",
+            width: "170px",
+            // paddingLeft: "20px",
+          }}
+        />
+        {/* Gyanish Shrivastava */}
       </div>
       <div className="menu">
         <div className="web-menu">
