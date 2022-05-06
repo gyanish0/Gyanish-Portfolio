@@ -13,6 +13,14 @@ function Projects() {
         {data.map((project, i) => {
           return <ProjectCard project={project} key={i} />;
         })}
+        <div style={{ display: "flex", justifyContent: "end" }}>
+          <label
+            className="project-title"
+            style={{ color: "darkblue", fontSize: "25px" }}
+          >
+            More Cooking.....
+          </label>
+        </div>
       </div>
     </div>
   );
