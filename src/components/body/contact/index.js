@@ -2,6 +2,8 @@ import React from "react";
 import "./contact.css";
 import SocialContact from "../../common/social-contact/index";
 import Separator from "../../common/separator/index";
+import DemoSide from "./DemoSide";
+
 function Contact() {
   return (
     <div className="contact">
@@ -12,6 +14,7 @@ function Contact() {
           <p>Want to get in touch? Contact me on any of the platform</p>
           <SocialContact />
         </div>
+
         <div className="download">
           <a
             download
@@ -21,6 +24,16 @@ function Contact() {
             Download Resume
           </a>
         </div>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          paddingBottom: "0px",
+        }}
+      >
+        {/* <ContactPage /> */}
+        <DemoSide />
       </div>
     </div>
   );
