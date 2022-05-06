@@ -18,6 +18,18 @@ const useStyles = makeStyles({
   fullList: {
     width: "auto",
   },
+  btnGet: {
+    backgroundColor: "aquamarine",
+    padding: "3px 9px",
+    fontSize: "22px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: "4px",
+    "@media(max-width:720px)": {
+      fontSize: "16px",
+    },
+  },
 });
 
 export default function DemoSide() {
@@ -145,15 +157,7 @@ export default function DemoSide() {
         <React.Fragment key={anchor}>
           <Button
             onClick={toggleDrawer(anchor, true)}
-            style={{
-              backgroundColor: "aquamarine",
-              padding: "3px 9px",
-              fontSize: "21px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "4px",
-            }}
+            className={classes.btnGet}
           >
             Get In Touch
           </Button>
