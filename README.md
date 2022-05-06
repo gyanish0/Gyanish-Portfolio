@@ -2,7 +2,7 @@
 
 ## Demo
 
-#### Here is a working live demo :
+#### Here is a working live demo :  (https://gyanish.netlify.app/)
 
 ## Built with
 
