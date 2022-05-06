@@ -14,26 +14,27 @@ function Contact() {
           <p>Want to get in touch? Contact me on any of the platform</p>
           <SocialContact />
         </div>
-
-        <div className="download">
-          <a
-            download
-            href={require("../../../assets/Gyanish's Resume.pdf").default}
+        <div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              paddingBottom: "20px",
+            }}
           >
-            <i class="fi-rr-cloud-download download-icon" />
-            Download Resume
-          </a>
+            {/* <ContactPage /> */}
+            <DemoSide />
+          </div>
+          <div className="download">
+            <a
+              download
+              href={require("../../../assets/Gyanish's Resume.pdf").default}
+            >
+              <i class="fi-rr-cloud-download download-icon" />
+              Download Resume
+            </a>
+          </div>
         </div>
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          paddingBottom: "0px",
-        }}
-      >
-        {/* <ContactPage /> */}
-        <DemoSide />
       </div>
     </div>
   );
