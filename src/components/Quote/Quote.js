@@ -23,7 +23,7 @@ export default function Quote() {
   return (
     <div>
       <Separator />
-      <div style={{ padding: "15px 0px" }}>
+      <div style={{ padding: "20px 0px" }}>
         <label className="section-title">Quote</label>
       </div>
       <label htmlFor="" style={{ color: "darkblue" }}>
@@ -37,6 +37,7 @@ export default function Quote() {
       </label>
       &nbsp;&nbsp;
       <label htmlFor="">{quote.en}</label>
+      <div style={{ marginBottom: "35px" }}></div>
     </div>
   );
 }
