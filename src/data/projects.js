@@ -11,7 +11,7 @@ export const ProjectData = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "Mega Quiz Hub",
     about:
       "This is a quiz app website where anyone plays a quiz easily. Only enter your details and start the quiz. On this website many categories like science, art, computer, music, sports, history, sports, animals, etc, and also users select question difficulty levels easy, medium, and hard to play the quiz. ",
@@ -19,5 +19,15 @@ export const ProjectData = [
     demo: "https://mega-quiz-hub.netlify.app/",
     github: "https://github.com/gyanish0/Mega-Quiz-App-Reactjs",
     image: "./Mega-Quiz-Hub.png",
+  },
+  {
+    id: 3,
+    title: "Dictionary",
+    about:
+      "This is a basically simple dictionary app where can any one search word with 12 language easily its provide dark and light theme also. ",
+    tags: ["ReactJs", "CSS3", "Rest Api"],
+    demo: "https://gyanish-dictionary.netlify.app/",
+    github: "https://github.com/gyanish0/dictionary-react",
+    image: "./result.png",
   },
 ];
