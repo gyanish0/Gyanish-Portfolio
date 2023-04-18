@@ -33,6 +33,6 @@ export const SocialData = [
   {
     platform: "Linkedin",
     icon: require("../assets/icons/linkedin.png").default,
-    link: "https://www.linkedin.com/in/gyanish-shrivastava-153582137",
+    link: "https://www.linkedin.com/in/gyanish0",
   },
 ];
