@@ -3,7 +3,7 @@ export const ProjectData = [
     id: 1,
     title: "Crypto Tracker",
     about:
-      "Basically, this is a project of the crypto coin to get all the info of the particular coin history, coin price graph, rank of the coin, current price, and total coin market capitalization. ",
+      "Basically, this is a project of the crypto coin to get all the info of the particular coin history, coin price graph, rank of the coin, current price, and total coin market capitalization.",
     tags: ["ReactJs", "Chart JS", "Material UI", "Rest Api"],
     demo: "https://crypto-tracker-gyanish.netlify.app/",
     github: "https://github.com/gyanish0/react-crypto-coin-tracker-gyanish",
